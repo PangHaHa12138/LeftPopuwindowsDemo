@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/titbar_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<!--左侧出来的popuwindow-->
+    <style name="AnimationLeftFade">
+        <item name="android:windowEnterAnimation">@anim/in_lefttoright</item>
+        <item name="android:windowExitAnimation">@anim/out_righttoleft</item>
+    </style>
+    <!--右侧出来的popuwindow-->
+    <style name="AnimationRightFade">
+        <item name="android:windowEnterAnimation">@anim/in_righttoleft</item>
+        <item name="android:windowExitAnimation">@anim/out_lefttoright</item>
+    </style>
+    <!--底下出来的popuwindow-->
+    <style name="AnimationBottomFade">
+        <item name="android:windowEnterAnimation">@anim/in_bottomtotop</item>
+        <item name="android:windowExitAnimation">@anim/out_toptobottom</item>
+    </style>
+
+</resources>

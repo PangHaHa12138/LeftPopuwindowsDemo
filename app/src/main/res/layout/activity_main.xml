@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:background="@drawable/pic_bg3x"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/titbar_color">
+
+        <ImageView
+            android:id="@+id/lefthaha"
+            android:clickable="true"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/title_but_left3x"/>
+
+        <TextView
+            android:id="@+id/titlehaha"
+            android:text="我是主题"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/righthaha"
+            android:clickable="true"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/title_but_right3x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <TextView
+           android:textSize="20sp"
+           android:layout_centerInParent="true"
+           android:textColor="@color/white"
+           android:text="从侧面出来的popuwindow，\n可以代替侧拉的drawerlayout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</LinearLayout>

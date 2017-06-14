@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/pop_layout"
+    android:layout_width="240dp"
+    android:background="#e0f4ff"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/person_seting"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+        <com.panghaha.it.leftpopuwindowsdemo.CircleImageView
+            android:clickable="true"
+            android:layout_marginTop="40dp"
+            android:id="@+id/leftphoto"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:src="@drawable/fsgdgfdf"/>
+        <TextView
+            android:id="@+id/leftname"
+            android:textSize="15sp"
+            android:textColor="@color/left_menu_font"
+            android:text="姓名"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#33000000"/>
+    <!--?android:attr/selectableItemBackground-水波纹效果-->
+
+    <LinearLayout
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:id="@+id/shenqing"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_left_bar_daibanrenwu3x"/>
+        <ImageView
+            android:id="@+id/shenqing_red"
+            android:visibility="visible"
+            android:src="@drawable/icon_left_bar_tixing3"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/left_menu_font"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菜单1"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="230dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="1dp"
+        android:background="#33000000"/>
+
+    <LinearLayout
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:id="@+id/shenpi"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_left_bar_yibanrenwu3x"/>
+        <ImageView
+            android:id="@+id/shenpi_red"
+            android:visibility="visible"
+            android:src="@drawable/icon_left_bar_tixing3"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/left_menu_font"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菜单2"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="230dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="1dp"
+        android:background="#33000000"/>
+
+    <LinearLayout
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:id="@+id/gongxiangwj"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center_vertical">
+        <ImageView
+
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_left_bar_xiafarenwu3x"/>
+        <ImageView
+            android:id="@+id/gongxiangwj_red"
+            android:visibility="visible"
+            android:src="@drawable/icon_left_bar_tixing3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/left_menu_font"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菜单3"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="230dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="1dp"
+        android:background="#33000000"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/exit"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:background="@drawable/exit_button"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icon_left_bar_tuichu3"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
